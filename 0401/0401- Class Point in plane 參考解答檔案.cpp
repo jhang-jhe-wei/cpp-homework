@@ -1,65 +1,56 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Fraction
-{
-private:
-	int numerator;
-	int denominator;
-public:
-	void setNumerator(int nu)
-	{
-		numerator = nu;
-	}
-	void setDenominator(int de)
-	{
-		denominator = de;
-	}
-	void getDouble()
-	{
-		double v = (double)numerator / denominator;
-		if (v == (int)v)
-			printf("%d\n", numerator / denominator);
-		else
-			printf("%f\n", (double)numerator / denominator);
-	}
-	void outputReducedFraction()
-	{
-		int a = numerator;
-		int b = denominator;
-		while (a != 0 && b != 0)
-		{
-			if (a > b)
-			{
-				a %= b;
-				if (a == 1)
-					break;
-			}
-			else if (b >= a)
-			{
-				b %= a;
-				if (b == 1)
-					break;
-			}			
-		}
-		int gcd = (a>b)?a:b;
-		if((denominator) / gcd == 1)
-			printf("%d\n", (numerator) / gcd);
-		else
-			printf("%d/%d\n",(numerator)/gcd,(denominator)/gcd);
-	}
-};
-int main()
-{
-	Fraction f1, f2;
-	f1.setNumerator(87);
-	f1.setDenominator(39);	
-	f1.outputReducedFraction();
-	f1.getDouble();
 
-	f2.setNumerator(39);
-	f2.setDenominator(87);
-	f2.getDouble();
-	f2.outputReducedFraction();
-	system("pause");
+class Point {
+private:
+	int vertical;
+	int horizontal;
+public:	
+	Point() {
+		vertical = 0;
+		horizontal = 0;
+	}
+	void Set(int vertical, int horizontal) {
+		this->vertical = vertical;
+		this->horizontal = horizontal;
+	}
+	void move(int x, int y);
+	void rotate();
+	int retrieveVertical() const {return vertical;}
+	int retrieveHorizontal() const {return horizontal;}
+};
+
+void Point::move(int x, int y) {
+	vertical += x;
+	horizontal += y;
+}
+void Point::rotate() {
+	int tempVertical = vertical;
+	vertical = horizontal;
+	horizontal = -tempVertical;
+}
+
+int main(void) {
+	Point A,B,C;
+	
+	A.set(5, -20);
+	cout << A.retieveVertical() << " " << A.retieveHorizontal() << endl;
+
+	B.set(3, -2);
+	cout << B.retieveVertical() << " " << B.retieveHorizontal() << endl;
+
+	B.move(1, 2);
+	cout << B.retieveVertical() << " " << B.retieveHorizontal() << endl;
+
+	C.set(5, 25);
+	cout << C.retieveVertical() << " " << C.retieveHorizontal() << endl;
+	C.move(3, -15);
+	cout << C.retieveVertical() << " " << C.retieveHorizontal() << endl;
+
+	for (int i = 0; i < 4; i++) {
+		C.rotate();
+		cout << C.retieveVertical() << " " << C.retieveHorizontal() << endl;
+	}
+
 	return 0;
 }
