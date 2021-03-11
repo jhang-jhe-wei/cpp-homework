@@ -24,6 +24,6 @@ Display the following “*” pattern on the screen.
 
 ---
 
-■ Eazy,Only basic programming syntax and structure are required.
-□ Medium,Multiple programming grammars and structures are required.
-□ Hard,Need to use multiple program structures or complex data types.
+- [x]  Eazy,Only basic programming syntax and structure are required.
+- [ ]  Medium,Multiple programming grammars and structures are required.
+- [ ] Hard,Need to use multiple program structures or complex data types.
