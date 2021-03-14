@@ -2,8 +2,8 @@
 ## Description:
 Given an arbitrary number X(double), a positive integer M, a positive integer N, and a character C, please output it as follows: 
 
-- [ ] The decimal (excluding the decimal point) must occupy N characters in the output and the decimal number N digits must be unconditionally discarded. If the decimal part of X is less than N digits, please make up 0.
-- [ ] If the corrected number of X characters (including negative and decimal points) is less than M words, please fill in the input character C at the beginning of the number, so that the number of characters C plus the number itself contains exactly the number of characters. Meet the M digits.
+- The decimal (excluding the decimal point) must occupy N characters in the output and the decimal number N digits must be unconditionally discarded. If the decimal part of X is less than N digits, please make up 0.
+- If the corrected number of X characters (including negative and decimal points) is less than M words, please fill in the input character C at the beginning of the number, so that the number of characters C plus the number itself contains exactly the number of characters. Meet the M digits.
 
 
 
