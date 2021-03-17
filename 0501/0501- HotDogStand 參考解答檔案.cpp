@@ -41,7 +41,6 @@ public:
 	}
 };
 int HotDogStand::totalSellAmount = 0;
-static int totalSellAmount = 0;
 int main()
 {
 	HotDogStand stand1("Stand1", 0);
