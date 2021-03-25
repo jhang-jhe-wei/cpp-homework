@@ -44,11 +44,11 @@ int main(void) {
 ```
 
 ### Sample Output 
-0 5
-0 -5
-1 -3
--3 -1
-Copy point:
+0 5<br>
+0 -5<br>
+1 -3<br>
+-3 -1<br>
+Copy point:<br>
 -3 -1
 
 
