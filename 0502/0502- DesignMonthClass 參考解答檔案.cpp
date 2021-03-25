@@ -1,8 +1,3 @@
-//Project : Design Month Class
-//Create : ZZY  
-//Date : 16.3.21
-//E-mail : B10415041@mail.ntust.edu.tw  
-
 #include <iostream>
 
 using namespace std;
