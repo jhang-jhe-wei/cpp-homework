@@ -14,7 +14,7 @@ public:
 	VecNf(const VecNf& rhs);
 
 	int Size();
-	float operator[](int i);
+	float& operator[](int i);
 	VecNf operator+(VecNf v);
 	VecNf operator-(VecNf v);
 	float operator*(VecNf v);
