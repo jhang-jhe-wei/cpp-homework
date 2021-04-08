@@ -23,7 +23,7 @@ int VecNf::Size()
 	return count;
 }
 
-float VecNf::operator[](int i)
+float& VecNf::operator[](int i)
 {
 	return vStart[i];
 }
