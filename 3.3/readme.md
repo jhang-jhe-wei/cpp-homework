@@ -1,4 +1,4 @@
-# Subject: Compute Sphere Volume
+# Subject: Simple Drawing Program
 ## Description:
 Please design a simple drawing program (fill the background with *), allow users to draw square, Isosceles right triangle and lines on the console (for figure, fill with Upper X)
 

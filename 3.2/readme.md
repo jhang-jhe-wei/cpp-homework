@@ -1,4 +1,4 @@
-# Subject: Compute Sphere Volume
+# Subject: CPU Bit Growth
 ## Description:
 Suppose a CPU with a k-bit can compute a maximum integer of (2^k) - 1, and every 10 years k will grow by a multiple of 2. Suppose that your company first released a 4-bit CPU in 1900, and the largest integer of its operation is 15 (so 8bits will be released in 1910, and 1920 is 16 bits... and so on).
  

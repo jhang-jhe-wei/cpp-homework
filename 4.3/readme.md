@@ -1,6 +1,7 @@
 # Subject: Student Records
 ## Description:
- Write a program that records at most 10 student data by structures. There are four function for user to use:
+Write a program that records at most 10 student data by structures. There are four function for user to use:
+
 (1)	insert (up to 10 records), (2) search, (3) delete, (4) print.
 
 A record of a student is defined as follow:
