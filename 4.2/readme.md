@@ -1,6 +1,7 @@
-# Subject: Compute Sphere Volume
+# Subject: Bank Account
 ## Description:
-  Write a definition of a class named BankAccount that will be used to store and amount of money call balance which are integers. You will need to declare and implement the following things:
+Write a definition of a class named BankAccount that will be used to store and amount of money call balance which are integers. You will need to declare and implement the following things:
+
 a.	Create a constructor “BankAccount(x)” that set the balance with initial value x. also have a default constructor “BankAccount()”that set balance with initial 0.
 b.	save(x): A member function to save money in the bank with an amount by the argument.
 c.	withdraw(x): A member function to withdraw money in the bank with an amount by the argument.

@@ -2,7 +2,6 @@
 //Date:2019/4/11
 //Last Updata:2019/4/11
 //Problem Statement:LD
-#include "pch.h"
 #include <iostream>
 #include <string>
 #include <algorithm>
